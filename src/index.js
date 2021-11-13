@@ -21,7 +21,7 @@ function findPictures(e) {
   e.preventDefault();
 
   const searchQuery = e.currentTarget.elements.query.value.trim();
-
+  
   if (!searchQuery) {
     const myError = error({
       text: 'Please enter a valid search query!',
@@ -82,7 +82,7 @@ function onImgClick(e) {
   basicLightbox
     .create(
       `
-		<img width="1400" height="900" src=${e.target.dataset.source}>
+		<img height="900" src=${e.target.dataset.source}>
 	`,
     )
     .show();
