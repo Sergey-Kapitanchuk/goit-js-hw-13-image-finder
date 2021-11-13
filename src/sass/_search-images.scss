@@ -119,11 +119,8 @@ ol {
 .gallery {
   width: 100%;
   margin-top: 15px;
-
-  @include for-size(mobile) {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .gallery__item {
