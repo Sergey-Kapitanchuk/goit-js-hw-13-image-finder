@@ -82,7 +82,7 @@ function onImgClick(e) {
   basicLightbox
     .create(
       `
-		<img width="1400" height="900" src=${e.target.src}>
+		<img width="1400" height="900" src=${e.target.dataset.source}>
 	`,
     )
     .show();
