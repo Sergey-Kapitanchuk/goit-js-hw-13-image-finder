@@ -3,7 +3,7 @@ export default class PicturesService {
     this.pageNumber = 1;
     this.searchQuery = '';
 
-    this.KEY = '24186443-1921da3d98fb9233d7b210f5d';
+    this.KEY = '24313425-113bae226a9d0d3fda52b5004';
     this.BASE_URL = 'https://pixabay.com/api';
   }
 
